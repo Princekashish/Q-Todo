@@ -1,8 +1,7 @@
-// slices/tasksSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  tasks: [],
+  tasks: [] // Initial tasks array
 };
 
 const tasksSlice = createSlice({
